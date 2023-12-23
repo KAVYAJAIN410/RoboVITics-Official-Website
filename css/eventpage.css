@@ -16,8 +16,6 @@
 }
 .heading-event {
   text-align: center;
-  margin-top: 7vh;
-  font-size: 5vw;
   color: #ffffff;
   font-size: 8vw;
 }
@@ -449,6 +447,7 @@
   .heading-event p {
     font-size: 50%;
     margin-left: 11vw;
+    margin-top: -200px;
   }
   .img1 {
     width: 90%;
