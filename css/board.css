@@ -1,5 +1,5 @@
 .board {
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     background-color: #0B1C22;
     color: white;
@@ -19,6 +19,7 @@
     height: 100%;
     max-width: 85vw;
     margin-left: 15vw;
+    margin-right: 4vw;
     justify-self: flex-end;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -26,6 +27,26 @@
     margin-top: 2%;
     display: flex;
     align-items: center;
+}
+
+.scrollContainer::-webkit-scrollbar {
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+.scrollContainer::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 5px; 
+}
+   
+.scrollContainer::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; 
+}
+  
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
 .board .scrollContainer .boardMember {
@@ -49,7 +70,7 @@
 }
 
 .board .scrollContainer .boardMember h1 {
-    font-size: large;
+    font-size: medium;
 }
 
 .board .scrollContainer .boardMember p {
